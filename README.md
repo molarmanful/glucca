@@ -19,13 +19,13 @@ Each item in the array is translated to its corresponding letter(s) set:
 
 Number|Replacement|Comments
 ---|---|---
-0|random(a e i o u)|Vowel.
-1|random(a e i o u)*2|2 Vowels.
-2|random(d h j k m n s t v w x y z b g p c f l r)|Consonants.
-3|random(b g p c f)+random(l r)|"Compatible consonants" - these form realistic consonant combinations. Cannot appear at the end of a pseudoword.
-4|random(st sl sw sh ch th dr tw ph tr wh gh zh)|More compatible consonants. Cannot appear at the end of a pseudoword.
-5|random(ss tt zz ff ll rr dd)|Repeated consonants.
-6|random(bb gg cc mm nn pp)|More repeated consonants. Cannot appear at the end of a pseudoword.
+0|`random(a e i o u)`|Vowel.
+1|`random(a e i o u)*2`|2 Vowels.
+2|`random(d h j k m n s t v w x y z b g p c f l r)`|Consonants.
+3|`random(b g p c f)+random(l r)`|"Compatible consonants" - these form realistic consonant combinations. Cannot appear at the end of a pseudoword.
+4|`random(st sl sw sh ch th dr tw ph tr wh gh zh)`|More compatible consonants. Cannot appear at the end of a pseudoword.
+5|`random(ss tt zz ff ll rr dd)`|Repeated consonants.
+6|`random(bb gg cc mm nn pp)`|More repeated consonants. Cannot appear at the end of a pseudoword.
 The array of letters joined, any `aa ii uu`'s are made unique (i.e.: `ae`,`io`,`ui`, etc.), and you have yourself a good ol' pseudoword!
 # Final Notes
 This algorithm was completely independently thought of; I have not seen another generator that uses this algorithm. Its aim is to create reasonably pronounceable pseudowords while being easy to implement.
