@@ -1,1 +1,8 @@
 <!doctype html>
+<title>glucca</title>
+<style>*{font-family:monospace}</style>
+<script src='glucca.js'></script>
+<h1>glucca - Pseudoword generator</h1>
+<a href='https://github.com/molarmanful/glucca'>Github</a>
+<hr>
+<div id=out onload='out.innerHTML=[...Array(1000)].map(x=>glucca()[1]).join`\n`'></div>
