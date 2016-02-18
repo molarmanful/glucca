@@ -29,6 +29,6 @@ The array of letters joined, any `aa ii uu`'s are made unique (i.e.: `ae`,`io`,`
 # Final Notes
 This algorithm was completely independently thought of; I have not seen another generator that uses this algorithm. Its aim is to create reasonably pronounceable pseudowords while being easy to implement.
 
-You may notice that most of the time, word endings are vowels. This is because 2 out of the 7 letter sets during translation are vowels, while 3 out of the 7 letter sets require a vowel to come after. This means that there is a `5/7` chance that a vowel will appear as a pseudoword!
+You may notice that most of the time, word endings are vowels. This is because 2 out of the 7 letter sets during translation are vowels, while 3 out of the 7 letter sets require a vowel to come after. This means that there is a `5/7` chance that a vowel will appear as a pseudoword.
 
 Have fun with `glucca`!
