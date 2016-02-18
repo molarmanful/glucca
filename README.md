@@ -14,7 +14,8 @@ An array is generated with the following conditions:
   - If the first item is either 0 or 1, the current item is a number from 2 to 6.
   - Otherwise, the current item is randomly 0 or 1.
 - If the resulting array ends in a 3, 4, or 6, push randomly 0 or 1 to the array.
-##Translation
+
+## Translation
 Each item in the array is translated to its corresponding letter(s) set:
 
 Number|Replacement|Comments
