@@ -9,4 +9,4 @@
 <hr>
 <div id=out></div>
 </div>
-<script>onload=_=>out.innerHTML=[...Array(1000)].map(x=>glucca()[1]).join`<br>`</script>
+<script>try{out.innerHTML=[...Array(1000)].map(x=>glucca()[1]).join`<br>`}catch(){alert('Your browser does not support enough Javascript ES6 to make glucca work. Try the newest versions of Chrome or Firefox and see if you can get better results. Sorry!')}</script>
