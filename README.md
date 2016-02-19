@@ -27,7 +27,7 @@ Number|Replacement|Comments
 4|`random(st sl sw sh ch th dr tw ph tr wh gh zh)`|More compatible consonants. Cannot appear at the end of a pseudoword.
 5|`random(ss tt zz ff ll rr dd)`|Repeated consonants.
 6|`random(bb gg cc mm nn pp)`|More repeated consonants. Cannot appear at the end of a pseudoword.
-The array of letters joined, any `aa ii uu`'s are made unique (i.e.: `ae`,`io`,`ui`, etc.), and you have yourself a good ol' pseudoword!
+The array of letters is joined, any `aa ii uu`'s are made unique (i.e.: `ae`,`io`,`ui`, etc.), and you have yourself a good ol' pseudoword!
 # Final Notes
 This algorithm was completely independently thought of; I have not seen another generator that uses this algorithm. Its aim is to create reasonably pronounceable pseudowords while being easy to implement.
 
