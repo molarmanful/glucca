@@ -1,12 +1,10 @@
-'use strict';
-
 var _templateObject = _taggedTemplateLiteral([''], ['']);
 
 function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i]; return arr2; } else { return Array.from(arr); } }
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var glucca = function glucca() {
+glucca = function glucca() {
   var R = arguments.length <= 0 || arguments[0] === undefined ? Math.random : arguments[0];
   var v = arguments.length <= 1 || arguments[1] === undefined ? 'aeiou' : arguments[1];
   var c = arguments.length <= 2 || arguments[2] === undefined ? 'dhjkmnstvwxyz' + (cf = 'bgpcf') + (cs = 'lr') : arguments[2];
