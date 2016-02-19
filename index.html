@@ -1,9 +1,12 @@
 <!doctype html>
 <title>glucca</title>
-<style>*{font-family:monospace}</style>
+<link href='http://bootswatch.com/spacelab/bootstrap.min.css' rel='stylesheet prefetch'>
 <script src='glucca.js'></script>
-<h1>glucca - Pseudoword generator</h1>
-<a href='https://github.com/molarmanful/glucca'>Github</a>
+<div class='container'>
+<h1>glucca</h1>
+<p class='lead'>A small pseudoword generator library.</p>
+<a href='https://github.com/molarmanful/glucca' class='btn btn-primary'>Github</a>
 <hr>
 <div id=out></div>
+</div>
 <script>onload=_=>out.innerHTML=[...Array(1000)].map(x=>glucca()[1]).join`<br>`</script>
