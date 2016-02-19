@@ -17,7 +17,9 @@ glucca = function () {
       return y && o.push(o[y - 1] < 2 ? 0 | R() * 5 + 2 : 0 | R() + .5);
     }), o[o[l = 'length'] - 1] ^ 3 && o[o[l] - 1] ^ 4 && o[o[l] - 1] ^ 6 || o.push(0 | R() + .5), [o, o.map(function (x) {
       return x ? x ^ 1 ? x ^ 2 ? x ^ 3 ? x ^ 4 ? x ^ 5 ? crb[0 | R() * crb[l]] : cra[0 | R() * cra[l]] : cp[0 | R() * cp[l]] : cf[0 | R() * cf[l]] + cs[0 | R() * cs[l]] : c[0 | R() * c[l]] : v[0 | R() * v[l]] + v[0 | R() * v[l]] : v[0 | R() * v[l]];
-    }).join(_templateObject).replace(/([aiu])\1/g, function (x, y) {
+    }).join(_templateObject).replace(/([aeiou])[aeiou]/g, function (x, y) {
+      return R() > .2 ? y : x;
+    }).replace(/([aiu])\1/g, function (x, y) {
       return y + v.replace(y, '')[0 | R() * v[l] - 1];
     })];
   })();
