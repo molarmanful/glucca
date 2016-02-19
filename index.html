@@ -4,9 +4,11 @@
 <script src='glucca.js'></script>
 <div class='container'>
 <h1>glucca</h1>
+<div class='jumbotron'>
 <p class='lead'>A small pseudoword generator library.</p>
-<a href='https://github.com/molarmanful/glucca' class='btn btn-primary'>Github</a>
-<hr>
-<div id=out></div>
+<a href='https://github.com/molarmanful/glucca' class='btn btn-primary'>Star on Github!</a>
 </div>
-<script>try{out.innerHTML=[...Array(1000)].map(x=>glucca()[1]).join`<br>`}catch(){alert('Your browser does not support enough Javascript ES6 to make glucca work. Try the newest versions of Chrome or Firefox and see if you can get better results. Sorry!')}</script>
+<h2>Sampling</h2>
+<ul id=out class='list-inline'></ul>
+</div>
+<script>try{out.innerHTML=[...Array(1000)].map(x=>`<li>${glucca()[1]).join`<br>`}</li>`}catch(){alert('Your browser does not support enough Javascript ES6 to make glucca work. Try the newest versions of Chrome or Firefox to see if you can get better results. Sorry!')}</script>
