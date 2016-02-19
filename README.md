@@ -20,7 +20,7 @@ Each item in the array is translated to its corresponding letter(s) set:
 
 Number|Replacement|Comments
 ---|---|---
-0|`random(a e i o u)`|Vowel.
+0|`random(a e i o u)`|Vowel. This is 4 times as likely to occur as a 2-vowel combo.
 1|`random(a e i o u)*2`|2 Vowels.
 2|`random(d h j k m n s t v w x y z b g p c f l r)`|Consonants.
 3|`random(b g p c f)+random(l r)`|"Compatible consonants" - these form realistic consonant combinations. Cannot appear at the end of a pseudoword.
